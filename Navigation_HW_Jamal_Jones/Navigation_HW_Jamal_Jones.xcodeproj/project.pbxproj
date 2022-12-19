@@ -16,6 +16,10 @@
 		02468D4F2950DB930048F529 /* Navigation_HW_Jamal_JonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02468D4E2950DB930048F529 /* Navigation_HW_Jamal_JonesTests.swift */; };
 		02468D592950DB930048F529 /* Navigation_HW_Jamal_JonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02468D582950DB930048F529 /* Navigation_HW_Jamal_JonesUITests.swift */; };
 		02468D5B2950DB930048F529 /* Navigation_HW_Jamal_JonesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02468D5A2950DB930048F529 /* Navigation_HW_Jamal_JonesUITestsLaunchTests.swift */; };
+		02468D682950DF3D0048F529 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02468D672950DF3D0048F529 /* TableViewController.swift */; };
+		02468D6A2950DF9E0048F529 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02468D692950DF9E0048F529 /* DataModel.swift */; };
+		02468D6C2950E5CE0048F529 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02468D6B2950E5CE0048F529 /* CustomTableViewCell.swift */; };
+		02468D6E2950EB940048F529 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02468D6D2950EB940048F529 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		02468D542950DB930048F529 /* Navigation_HW_Jamal_JonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Navigation_HW_Jamal_JonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02468D582950DB930048F529 /* Navigation_HW_Jamal_JonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_HW_Jamal_JonesUITests.swift; sourceTree = "<group>"; };
 		02468D5A2950DB930048F529 /* Navigation_HW_Jamal_JonesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_HW_Jamal_JonesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02468D672950DF3D0048F529 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		02468D692950DF9E0048F529 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		02468D6B2950E5CE0048F529 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		02468D6D2950EB940048F529 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				02468D372950DB910048F529 /* AppDelegate.swift */,
 				02468D392950DB910048F529 /* SceneDelegate.swift */,
 				02468D3B2950DB910048F529 /* ViewController.swift */,
+				02468D6D2950EB940048F529 /* WeatherViewController.swift */,
 				02468D3D2950DB910048F529 /* Main.storyboard */,
+				02468D672950DF3D0048F529 /* TableViewController.swift */,
+				02468D692950DF9E0048F529 /* DataModel.swift */,
 				02468D402950DB920048F529 /* Assets.xcassets */,
 				02468D422950DB920048F529 /* LaunchScreen.storyboard */,
 				02468D452950DB920048F529 /* Info.plist */,
+				02468D6B2950E5CE0048F529 /* CustomTableViewCell.swift */,
 			);
 			path = Navigation_HW_Jamal_Jones;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02468D6A2950DF9E0048F529 /* DataModel.swift in Sources */,
 				02468D3C2950DB910048F529 /* ViewController.swift in Sources */,
 				02468D382950DB910048F529 /* AppDelegate.swift in Sources */,
+				02468D6C2950E5CE0048F529 /* CustomTableViewCell.swift in Sources */,
+				02468D6E2950EB940048F529 /* WeatherViewController.swift in Sources */,
 				02468D3A2950DB910048F529 /* SceneDelegate.swift in Sources */,
+				02468D682950DF3D0048F529 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
